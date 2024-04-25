@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal-portfolio/Nitin Sharma</title>
+    <link rel="stylesheet" href="style.css" >
+    <script src="https://kit.fontawesome.com/00dae68e4b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">  
+    <div class="container">
+        <nav>
+            <h1 style="margin: 1%;"><span style="color: #ff004f;">N</span>itin.</h1>
+            <ul id="sidemenu">
+                <li> <a href="#header">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#Services">Services</a></li>
+                <li> <a href="#portfolio">Portfolio</a></li>
+                <li> <a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Front-End Developer</p><br>
+            <h1>Hi,I'm <span>Nitin</span> Sharma</h1>
+        </div>
+    </div> 
+</div> 
+<!-------------------about------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/nitincoat.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Hello! My name is Nitin Sharma. I am a Front-End Developer, and I’m here to introduce myself in my professional
+                     portfolio. I hope that you enjoy the work I’ve created.I’m a website designer specializing in creating visual
+                     identities and brand building. My work has been featured on websites like github. My first website
+                     was designed for a project in the first year graduation in 2019. Since then, I have worked 
+                     with many clients to help them create powerful identities for their companies.
+                    
+                    My goal is to help you create powerful websites that speak directly to your audience. 
+                    Whether you’re looking for a web Developer or complex like a system engineer,
+                     my work will help you build a strong foundation for your company’s image and ensure it stays consistent over time.
+                    
+                    </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming languages</span><br>Java, JavaScript, C++</li>
+                        <li><span>Web Technologies</span><br>HTML, CSS</li>
+                        <li><span>Database Management</span><br>MySql</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Teleperformace</span><br><br>I worked as a Customer Support Exceutive at the Teleperformace in the Indore city for a two months&emsp;&emsp;June22-Aug22</li>
+                        <br>
+                        where my responsibilities are <br><br>• Oversee the customer service process
+                        <br>• Resolve customer complaints brought to your attention<br>
+                        • Create policies and procedures<br>
+                        • Plan the training and standardisation of service delivery<br>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>MCA</span><br>Lovely Professional University&emsp; 2022 - 2024<br>CGPA-6.39</li>
+                        <li><span>BCA</span><br>PIMR Indore&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2019 - 2022<br>CGPA-7.0</li>
+                        <li><span>INTERMEDIATE</span><br>Army Public School&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2016-2018<br>CGPA-8.2</li>
+                        <li><span>MATRICULATION</span><br>Army Public School&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2015-2016<br>CGPA-8.5</li>
+                    </ul>
+                </div>
+                        <a href="" download class="btn btn2">Download CV</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------services------------------>
+<div id="Services">
+    <div class="container">
+        <h1 class="subtitle"> My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Custom Web Apps</h2>
+                <p>I provide front end development services to create a bespoke
+                     solution for your business case. I can analyzes the specific 
+                     needs of your project and delivers a functional
+                     and thought-out front-end. </p>
+                    <a href="#contact">Learn more</a>
+            </div>
+            <div>
+                <h2>UI/UX Design</h2>
+                <p>I can create UI/UX website designs
+                    from scratch or work with ready design mock-ups. I leverage the 
+                    latest technology to construct user-friendly and efficient interfaces.</p>
+                    <a href="#contact">Learn more</a>
+            </div>
+            <div>
+                <h2>Cross-Platform Development</h2>
+                <p>I rely on the selection of top cross-platform frameworks and PWA 
+                    standards to create attractive design, usability, and functionality 
+                    across various devices. Bringing responsive webpages to provide 
+                    native experiences on multiple systems.</p>
+                    <a href="#contact">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------portfolio----------->
+<div id="portfolio">
+<div class="container">
+    <h1 class="subtitle">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work1.png" >
+            <div class="layer">
+                <h3>JOB SUGGESTION SYSTEM</h3>
+                <p>Constructed a code to suggest a job according to the qualification of an applicant.
+                    It also shows the job description and pay scale.
+                    The code contains three modules admin, job seeker, and job provider</p>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work2.jpeg" >
+            <div class="layer">
+                <h3>CAR RENTAL MANAGEMENT SYSTEM</h3>
+                <p>Built an application to handle the car rental information 
+                    Upgraded code to provide the details of booked and canceled cars
+                    Created by using HTML, CSS, and Java</p>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work3.jpeg" >
+            <div class="layer">
+                <h3>HOTEL MANAGEMENT APPLICATION</h3>
+                <p>Built an application for managing all the customers information,
+                     room availability ,duration period and calculate the final billing
+                      of the customer using java </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--------------------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> ns9093393@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 6283728998</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/baesharmaaa/?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/nitin6283"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nitinsharma9991//"><i class="fa-brands fa-linkedin"></i></a> 
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Nitin.</p>
+    </div>
+</div>
+
+
+
+
+
+<script>
+
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var side=document.getElementById("sidemenu");
+
+    function openmenu(){
+        side.style.right="0";
+    }
+    function closemenu(){ 
+        side.style.right="-200px";
+    }
+</script>
+</body>
+</html>
